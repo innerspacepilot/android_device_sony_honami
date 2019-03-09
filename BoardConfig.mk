@@ -16,26 +16,26 @@
 include device/sony/rhine-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
-#-include vendor/sony/amami/BoardConfigVendor.mk
+#-include vendor/sony/honami/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := D5503,amami,anami
+TARGET_OTA_ASSERT_DEVICE := C6902,C6903,C6906,C6943,honami
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/amami/include
+TARGET_SPECIFIC_HEADER_PATH += device/sony/honami/include
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/amami/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/honami/bluetooth
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := lineageos_rhine_amami_row_defconfig
+TARGET_KERNEL_CONFIG := lineageos_rhine_honami_row_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01400000
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2436890624
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 12891175936
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1056964608
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 2147483648
 BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
 
 #Recovery
-BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"

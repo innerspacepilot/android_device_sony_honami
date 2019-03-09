@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "LineageOS/device_sony_rhine-common",
+    "target_path": "device/sony/rhine-common",
+    "branch": "lineage-16.0"
+  }
+]
