@@ -4,7 +4,9 @@ ro.sf.lcd_density=480
 # USB path
 ro.usb.pid_suffix=19E
 
+# Ril
 ro.use_data_netmgrd=true
+ro.ril.enable.amr.wideband=1
 
 # Semc
 ro.semc.product.model=C6903
@@ -15,5 +17,3 @@ ro.semc.product.device=C69
 ro.semc.version.cust=1276-7951
 ro.semc.version.cust_revision=R2D
 
-# Enable navigation bar
-qemu.hw.mainkeys=0
