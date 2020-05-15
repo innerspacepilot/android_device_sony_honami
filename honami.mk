@@ -47,10 +47,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/configs/thermanager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/thermanager.xml
 
-# Busybox
-PRODUCT_COPY_FILES += \
-   external/devlib/devlib/bin/armeabi/busybox:system/bin/busybox
-
 TARGET_SYSTEM_PROP += device/sony/honami/system.prop
 
 # setup dalvik vm configs
